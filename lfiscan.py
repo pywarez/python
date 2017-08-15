@@ -73,7 +73,7 @@ logs = ["var/log/httpd/access_log",
 "var/log/error_log"]    
 
 if len(sys.argv) < 2:
-    print "\nUsage: " + sys.argv[0] + " <URL>" + " <Cookie>"
+    print "\nUsage: " + sys.argv[0] + " <URL>"
     print "Example: python lfiscan.py http://192.168.0.1/index?page=../../../../"
     sys.exit()
 
