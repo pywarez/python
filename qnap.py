@@ -4,7 +4,7 @@ import sys
 import time
 
 if len(sys.argv) < 2:
-    print "\nUsage: " + sys.argv[0] + " <HOST>\n"
+    print "\nUsage: " + sys.argv[0] + " <HOST>"
     print "USAGE: qnap.py host check/exploit"
     sys.exit()
 
